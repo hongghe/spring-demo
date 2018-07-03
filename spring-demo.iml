@@ -9,12 +9,16 @@
           <file>file://$MODULE_DIR$/src/main/java/com/hongghe/springdemo/Beans.xml</file>
           <file>file://$MODULE_DIR$/src/main/resources/WebContent/WEB-INF/lib/WEB-INF/springmvc-config.xml</file>
         </fileset>
+        <fileset id="fileset2" name="Dispatcher_cainiao" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/WebContent/WEB-INF/lib/WEB-INF/dispatcher_cainiao.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/WebContent/WEB-INF/lib/WEB-INF/springmvc-config.xml</file>
+        </fileset>
       </configuration>
     </facet>
     <facet type="web" name="Web">
       <configuration>
         <descriptors>
-          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/src/main/resources/WebContent/WEB-INF/lib/web.xml" />
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/src/main/resources/WebContent/web.xml" />
         </descriptors>
         <webroots>
           <root url="file://$MODULE_DIR$/src/main/resources/WebContent/WEB-INF/lib" relative="/WEB-INF" />
