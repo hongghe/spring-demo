@@ -10,6 +10,8 @@
           <file>file://$MODULE_DIR$/src/main/resources/WebContent/WEB-INF/lib/WEB-INF/springmvc-config.xml</file>
           <file>file://$MODULE_DIR$/src/main/resources/webapp/WEB-INF/mvc-dispatcher-servlet.xml</file>
           <file>file://$MODULE_DIR$/src/main/resources/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/config/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/webapp/applicationContext.xml</file>
         </fileset>
         <fileset id="fileset2" name="Dispatcher_cainiao" removed="false">
           <file>file://$MODULE_DIR$/src/main/resources/WebContent/WEB-INF/lib/WEB-INF/dispatcher_cainiao.xml</file>

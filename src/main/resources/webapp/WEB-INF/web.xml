@@ -10,7 +10,7 @@
          这些配置文件被父 Spring 容器所使用 -->
     <context-param>
         <param-name>contextConfigLocation</param-name>
-        <param-value>classpath: /applicationContext.xml</param-value>
+        <param-value>classpath:/config/applicationContext.xml</param-value>
     </context-param>
     <listener>
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
@@ -22,14 +22,14 @@
         启动 Web 层的 Spring 容器
     -->
     <servlet>
-        <servlet-name>spring-demo</servlet-name>
+        <servlet-name>mvc</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
         <load-on-startup>1</load-on-startup>
     </servlet>
 
     <!-- 名为 DispatcherServlet 匹配的URL模式 -->
     <servlet-mapping>
-        <servlet-name>springdemo</servlet-name>
+        <servlet-name>mvc</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 </web-app>
