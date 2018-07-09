@@ -33,7 +33,7 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
                 <configuration>
-                    <warName>phapp-api</warName>
+                    <warName>spring-demo</warName>
                 </configuration>
             </plugin>
 
