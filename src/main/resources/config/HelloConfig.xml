@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans." >
+<beans>
+    <bean id="helloConfig" class="com.hongghe.springdemo.domain.HelloConfig">
+        <properties>
+        <property name="username">
+            <value>username</value>
+        </property>
+        <property>
+            <value>1231</value>
+        </property>
+        <property>
+            <value>132L</value>
+        </property>
+        </properties>
+    </bean>
+</beans>
