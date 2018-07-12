@@ -7,6 +7,11 @@ import org.springframework.stereotype.Service;
 
 import java.lang.reflect.*;
 
+/**
+ * Reflect of example.
+ *
+ * @author hongghe
+ */
 @Service
 public class ReflectExample {
     private static  final Logger logger = LoggerFactory.getLogger(ReflectExample.class);
